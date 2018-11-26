@@ -6,9 +6,13 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.w3-myfont {
+    font-family: 'Oswald', sans-serif;
+}
 body, html {
     height: 100%;
     line-height: 1.8;
@@ -17,7 +21,8 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("https://images.pexels.com/photos/1537164/pexels-photo-1537164.jpeg?cs=srgb&dl=aerial-background-bow-1537164.jpg&fm=jpg");
+    /*background-image: url("https://images.pexels.com/photos/1537164/pexels-photo-1537164.jpeg?cs=srgb&dl=aerial-background-bow-1537164.jpg&fm=jpg"); */
+    background-image: url("https://images.pexels.com/photos/532001/pexels-photo-532001.jpeg?cs=srgb&dl=auto-automobile-blur-532001.jpg&fm=jpg");
     min-height: 100%;
 }
 .w3-bar .w3-button {
@@ -29,13 +34,13 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="logo.png"  alt="LOGO"></a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i> HOME</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ME</a>
-      <!-- <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="christmas.html" class="w3-bar-item w3-button"><img src="tree.png"  alt="LOGO"> CHRISTMAS LIST</a>
+      <!-- <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
 	  -->
     </div>
@@ -59,15 +64,12 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container " id="home">
-  <div class="w3-animate-opacity">
-	  <div class="w3-display-middle w3-text-white" style="padding:48px">
-	    <span class="w3-jumbo w3-hide-small w3-text-black w3-center">Jordan Stevenson</span><br>
-	    <span class="w3-xxlarge w3-hide-large w3-hide-medium w3-tag w3-white w3-spin w3-center">Jordan Stevenson</span><br>
-	    <span class="w3-tag w3-large w3-black w3-center">Criminal Justice Major</span>
-	    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about me</a></p>
-	  </div> 
-	</div>
+<header class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-panel w3-center w3-gray w3-opacity-min" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small w3-text-black w3-myfont w3-center w3-opacity-off">Jordan Stevenson</span><br>
+      <span class="w3-text-black w3-xlarge w3-display-middle w3-opacity-off">Criminal Justice Major</span><br>
+      <div class=" w3-center"><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity-min w3-hover-opacity-off">Learn more about me</a></div>
+  </div>
   <div class="w3-display-bottomleft w3-text-white w3-large" style="padding:24px 48px">
     <a href="https://www.facebook.com/son.of.steven.1999" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <a href="https://www.instagram.com/son_of_stevn/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
@@ -126,7 +128,7 @@ body, html {
   <div class="w3-row-padding " style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="jordan_new.jpg" alt="Jordan" style="width:100%">
+        <img src="jordan.jpeg" alt="Jordan" style="width:100%">
         <div class="w3-container">
           <h3>Jordan Stevenson</h3>
           <p class="w3-opacity">CEO & Founder</p>
@@ -400,4 +402,3 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
 </body>
 </html>
-
