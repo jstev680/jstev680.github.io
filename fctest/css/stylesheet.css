@@ -156,6 +156,12 @@ footer p {
 	}
 }
 
+/*Hides the social bar on small screens*/
+@media(max-width: 700px) {
+	div.icon-bar {
+		display: none;
+	}
+}
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
